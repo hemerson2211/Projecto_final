@@ -1,0 +1,36 @@
+.body2{
+    background-color:white
+    }
+
+
+    .body2 h1{
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .body2 h2{
+        color: black;      
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .body2 h3{
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+    
+    }
+
+    .section-descricao {
+        display: flex;
+        padding: 7rem 4rem;
+        justify-content: space-around;
+    }
+    
+    .section-descricao .text-container {
+        width: 40%;
+    }
+    
+    .section-descricao .text-container p {
+        color: #2a2929;
+        margin-bottom: 1rem;
+    }
+    

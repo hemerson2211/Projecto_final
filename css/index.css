@@ -4,7 +4,69 @@
     box-sizing: border-box;
 }
 
-a{
-    color: white;
+.body{
+position: relative;
+    text-align: center;
 }
 
+.body h1{
+    position: absolute;
+    bottom: 0;
+    color: black;
+
+    margin-bottom: 500px;
+    margin-left: 800px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.body h2{
+
+    position: absolute;
+    bottom: 0;
+    color: black;
+
+    margin-bottom: 400px;
+    margin-left: 900px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.body h3{
+    position: absolute;
+    bottom: 0;
+    color: black;
+
+    margin-bottom: 400px;
+    margin-left: 1070px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+footer {
+    margin-top: 0;
+    width: 100%;
+    padding: 2rem 1rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+footer .social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+footer a {
+    color: white;
+    margin-right: 1rem;
+}
+
+footer a:last-child {
+    margin-right: 0;
+}
