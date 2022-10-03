@@ -17,7 +17,7 @@ position: relative;
     background-color: burlywood;
 }
 
-.body h1{
+.body h1 {
     position: absolute;
     bottom: 0;
     color: black;
@@ -77,4 +77,28 @@ footer a {
 
 footer a:last-child {
     margin-right: 0;
+}
+
+
+.card:hover{
+    box-shadow:  -2px -1px 25px -4px rgba(0,0, 0, 0.75);
+    -webkit-box-shadow:-2px -1px 25px -4px rgba(0,0, 0, 0.75);
+    -moz-box-shadow: -2px -1px 25px -4px rgba(0,0, 0, 0.75);
+    transition: 0.5s;
+}
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.iframe{
+    padding: 2rem;
+    width: 100%;
 }
