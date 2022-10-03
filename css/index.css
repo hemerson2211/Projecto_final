@@ -100,5 +100,6 @@ footer a:last-child {
 
 .iframe{
     padding: 2rem;
-    width: 100%;
+    width: 90%;
+    margin-left: 5rem;
 }
