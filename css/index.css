@@ -26,6 +26,23 @@ position: relative;
     margin-left: 800px;
     font-family: 'Times New Roman', Times, serif;
 
+    
+}
+
+
+.body .btnp{
+     position: absolute;
+    bottom: 0;
+    margin-bottom: 330px;
+    margin-left: -600px;
+    height: 45px;
+    width: 15%;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;    
 }
 
 .body h2{
