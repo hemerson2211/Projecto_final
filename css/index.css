@@ -121,6 +121,11 @@ footer a:last-child {
     margin-left: 5rem;
 }
 
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
 
 
 
